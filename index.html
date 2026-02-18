@@ -181,15 +181,28 @@
             justify-content: center;
             font-size: 3rem;
             position: relative;
+            overflow: hidden;
+        }
+        .portfolio-image iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 400%;
+            height: 400%;
+            transform: scale(0.25);
+            transform-origin: top left;
+            border: none;
+            pointer-events: none;
         }
         .portfolio-badge {
             position: absolute;
             top: 15px;
             right: 15px;
-            background: rgba(0,0,0,0.5);
+            background: rgba(0,0,0,0.7);
             padding: 5px 12px;
             border-radius: 20px;
             font-size: 0.75rem;
+            z-index: 2;
         }
         .portfolio-info { padding: 25px; }
         .portfolio-info h3 { margin-bottom: 8px; font-size: 1.2rem; }
@@ -439,7 +452,8 @@
         </div>
         <div class="portfolio-grid">
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #1a5f5a 0%, #134845 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/ahenk-home.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Textiles</span>
                 </div>
                 <div class="portfolio-info">
@@ -449,7 +463,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #8b5a3c 0%, #6d4630 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/husnulain.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Fashion</span>
                 </div>
                 <div class="portfolio-info">
@@ -459,7 +474,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #8b7355 0%, #6d5a43 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/graceful-scarfs.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Hijabs</span>
                 </div>
                 <div class="portfolio-info">
@@ -469,7 +485,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #b08968 0%, #8b6b4e 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/arabisk-boutique.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Hijabs</span>
                 </div>
                 <div class="portfolio-info">
@@ -479,7 +496,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #111 0%, #1a1a1a 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/haus-of-z-jewelry.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Jewelry</span>
                 </div>
                 <div class="portfolio-info">
@@ -489,7 +507,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #9c7a4a 0%, #7d6239 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/moti-jewelry.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Jewelry</span>
                 </div>
                 <div class="portfolio-info">
@@ -499,7 +518,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #2d4a3e 0%, #1e3329 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/nationgem.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Jewelry</span>
                 </div>
                 <div class="portfolio-info">
@@ -509,7 +529,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #c77dff 0%, #a855f7 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/fashion-fusion.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Jewelry</span>
                 </div>
                 <div class="portfolio-info">
@@ -519,7 +540,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #0d0d12 0%, #16161d 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/selene-by-ayesha.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Jewelry</span>
                 </div>
                 <div class="portfolio-info">
@@ -529,7 +551,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #e8a4b8 0%, #c98299 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/c-is-for-crafting.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Crafts</span>
                 </div>
                 <div class="portfolio-info">
@@ -539,7 +562,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #c9a86c 0%, #b08d4f 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/gifty-by-ai.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Gifts</span>
                 </div>
                 <div class="portfolio-info">
@@ -549,7 +573,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #e85d5d 0%, #d04848 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/tulip-hut.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Crafts</span>
                 </div>
                 <div class="portfolio-info">
@@ -559,7 +584,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #9b7e6a 0%, #7d6456 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/pinora-by-huda.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Art</span>
                 </div>
                 <div class="portfolio-info">
@@ -569,7 +595,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #5c4a3d 0%, #3d3128 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/art-by-3afaf.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Art</span>
                 </div>
                 <div class="portfolio-info">
@@ -579,7 +606,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #0a0a0a 0%, #141414 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/2009-apparel.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Apparel</span>
                 </div>
                 <div class="portfolio-info">
@@ -589,7 +617,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #5a67d8 0%, #4c51bf 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/a-better-force.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Fitness</span>
                 </div>
                 <div class="portfolio-info">
@@ -599,7 +628,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #d4a574 0%, #5c4033 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/nadia-baklava.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Food</span>
                 </div>
                 <div class="portfolio-info">
@@ -609,7 +639,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #2d5a27 0%, #1e3d1a 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/green-crescent-farm.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Farm</span>
                 </div>
                 <div class="portfolio-info">
@@ -619,7 +650,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #5c4033 0%, #3d2a22 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/halal-heritage-farm.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Halal</span>
                 </div>
                 <div class="portfolio-info">
@@ -629,7 +661,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #6b8e23 0%, #556b2f 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/olive-branch-imports.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Imports</span>
                 </div>
                 <div class="portfolio-info">
@@ -639,7 +672,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #d4a84b 0%, #b8963f 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/saffron-spice-co.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Spices</span>
                 </div>
                 <div class="portfolio-info">
@@ -649,7 +683,8 @@
                 </div>
             </div>
             <div class="portfolio-card">
-                <div class="portfolio-image" style="background: linear-gradient(135deg, #c9a227 0%, #a68b1f 100%);">
+                <div class="portfolio-image">
+                    <iframe src="ramadan/oasis-dates-co.html" loading="lazy"></iframe>
                     <span class="portfolio-badge">Dates</span>
                 </div>
                 <div class="portfolio-info">
